@@ -92,6 +92,6 @@ function getRandomColor () {
 }
 
 reload.addEventListener('click' , ()=>{
-  window.location.reload();
+  location.reload();
 })
 
