@@ -55,8 +55,10 @@ function setTime (value) {
 
 function finishGame () {
   board.innerHTML = `
-  <h1>Your score: <span class="primary">${score}</span></h1>
-  <button class="next">подробнее</button>
+   <div class="wrapper-score">
+    <h1>Вы набрали балов: <span class="primary">${score}</span></h1>
+    <button class="next">узнать оценку</button> 
+   </div>
   `
   document.querySelector('.next').addEventListener('click', ()=> {
     screens[2].classList.add('up')
@@ -89,7 +91,7 @@ function getRandomColor () {
   return colors[index]
 }
 
-reload.addEventListener('click' , ()=>{
-  window.location.reload();
-})
+// reload.addEventListener('click' , ()=>{
+//   window.location.reload();
+// })
 
