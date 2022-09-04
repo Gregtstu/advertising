@@ -122,10 +122,11 @@ h1 {
     margin: 0 auto;
 }
 .reload{
-    font-size: 30px;
-    width: 200px;
+    font-size: 20px;
+    width: 250px;
     padding: 20px;
     margin: 0 auto;
+    color: tomato;
 }
 
 @media (max-width: 992px) {
