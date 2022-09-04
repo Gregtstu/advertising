@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    font-family: 'Gluten', cursive, sans-serif;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.start {
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h1 {
+    line-height: 1.4;
+    font-size: 4rem;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    transition: margin 0.5s ease-out;
+    /*background: blue;*/
+    color: #000;
+}
+
+.screen.up {
+    margin-top: -100vh;
+}
+
+.time-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.time-list li {
+    margin: 10px;
+}
+
+.time-btn {
+    background-color: transparent;
+    border: 6px solid pink;
+    color: pink;
+    cursor: pointer;
+    font-family: inherit;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.time-btn:hover {
+    border: 2px solid #000;
+    color: #000;
+    transition: 0.7s;
+    font-weight: bold;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.primary {
+    color: #1d1d1d;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    /*background: pink;*/
+    opacity: 0.5;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 333;
+    box-shadow: -8px -8px 20px #ce2714, 10px 7px 20px #fa8072;
+}

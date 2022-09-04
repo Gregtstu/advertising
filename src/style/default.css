@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/maximum-impact');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+:root{
+    --heder-footer-fon-color:#313131;
+    --main-fon-color:#FFFFFF;
+    --inform-text-color:#FFFFFF;
+    --title-h1-color:#FFFFFF ;
+    --title-h2-color:#F2A500;
+    --bg-color:#EC7F00;
+    --progess-fone:#C4C4C4;
+    --description-text-color: #2D2D2D;
+    --cards-bacground: #E9E9E9;
+     box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1455px;
+    margin: 0 auto;
+    padding: 0 38px 0 46px;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+
+
